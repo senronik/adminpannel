@@ -1,0 +1,135 @@
+/* Tournaments.css */
+.Headertext{
+    text-align: center;
+}
+
+.form-style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .input-style {
+    margin: 10px;
+    width: 70%;
+    padding: 12px 15px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    transition: border-color 0.3s;
+  }
+  
+  .input-style:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 0 2px rgba(0,123,255,0.25);
+  }
+  
+  .input-style:hover {
+    border-color: #0056b3;
+  }
+  
+  .button-style {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s, box-shadow 0.2s;
+  }
+  
+  .button-style:hover {
+    background-color: #0056b3;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  }
+  
+  .button-style:active {
+    background-color: #003885;
+  }
+  
+  .submitted-data{
+    
+    flex-direction: row;
+  }
+  .data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .data-table th, .data-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .data-table th {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .data-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .data-table tr:hover {
+    background-color: #ddd;
+  }
+  .input-style::placeholder {
+    color: #606060; /* Light black color for the placeholder */
+    opacity: 1; /* Full opacity to make sure it's clearly visible */
+  }
+  /* TournamentDetails.css */
+
+.tournament-details-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.tournament-info {
+  margin-bottom: 20px;
+}
+
+.tournament-title {
+  font-size: 1.5em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.tournament-timeline,
+.tournament-date,
+.tournament-games,
+.tournament-cost {
+  color: #666;
+  margin-bottom: 5px;
+}
+
+.games-section {
+  border-top: 2px solid #eee;
+  padding-top: 15px;
+}
+
+.games-title {
+  font-size: 1.2em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.game-field {
+  background: #fff;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
